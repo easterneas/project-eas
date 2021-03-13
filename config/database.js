@@ -24,6 +24,7 @@ module.exports = ({ env }) => ({
         host: '127.0.0.1',
         port: '5432',
         database: 'project-eas',
+        username: 'postgres',
         password: 'root',
       },
     }
