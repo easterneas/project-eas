@@ -27,6 +27,9 @@ module.exports = ({ env }) => ({
         username: 'postgres',
         password: 'root',
       },
+      options: {
+        autoMigration: true
+      }
     }
   }
 })
