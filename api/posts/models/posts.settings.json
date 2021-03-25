@@ -22,9 +22,7 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false
@@ -34,6 +32,14 @@
     },
     "category": {
       "model": "category",
+      "via": "posts"
+    },
+    "published": {
+      "type": "date",
+      "required": true
+    },
+    "tags": {
+      "collection": "tag",
       "via": "posts"
     }
   }
